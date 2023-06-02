@@ -1,24 +1,4 @@
-<p align="center"><img src="https://s3.amazonaws.com/deta-assets/logo_large_white.png" width="256" /></p>
-
-<div align="center">
-  <a href="https://circleci.com/gh/detaprotocol/workflows/perpetual/tree/master" style="text-decoration:none;">
-    <img src="https://img.shields.io/circleci/project/github/detaprotocol/perpetual.svg" alt='CI Status' />
-  </a>
-  <a href='https://www.npmjs.com/package/@detaprotocol/perpetual' style="text-decoration:none;">
-    <img src='https://img.shields.io/npm/v/@detaprotocol/perpetual.svg' alt='NPM' />
-  </a>
-  <a href='https://coveralls.io/github/detaprotocol/perpetual' style="text-decoration:none;">
-    <img src='https://coveralls.io/repos/github/detaprotocol/perpetual/badge.svg?t=cPGDk7' alt='Coverage Status' />
-  </a>
-  <a href='https://github.com/detaprotocol/perpetual/blob/master/LICENSE' style="text-decoration:none;">
-    <img src='https://img.shields.io/github/license/detaprotocol/protocol.svg?longCache=true' alt='License' />
-  </a>
-  <a href='https://t.me/joinchat/GBnMlBb9mQblQck2pThTgw' style="text-decoration:none;">
-    <img src='https://img.shields.io/badge/chat-on%20telegram-9cf.svg?longCache=true' alt='Telegram' />
-  </a>
-</div>
-
-> Ethereum Smart Contracts and TypeScript client library for the deta Perpetual Contracts Protocol. Currently used by [trade.deta.exchange](https://trade.deta.exchange).
+ Ethereum Smart Contracts and TypeScript client library for the deta Perpetual Contracts Protocol. Currently used by [trade.deta.exchange](https://trade.deta.exchange).
 
 **Full Documentation at [docs.deta.exchange](https://docs.deta.exchange).**
 
