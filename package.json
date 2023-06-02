@@ -1,7 +1,7 @@
 {
-  "name": "@dydxprotocol/perpetual",
+  "name": "@detaprotocol/perpetual",
   "version": "1.2.1",
-  "description": "Ethereum Smart Contracts and TypeScript library used for the dYdX Perpetual Contracts",
+  "description": "Ethereum Smart Contracts and TypeScript library used for the deta Perpetual Contracts",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "files": [
@@ -18,11 +18,11 @@
     "compile": "truffle compile",
     "build": "npm run compile -- --all && npm run clean_contract_json && npm run build:js",
     "build:js": "rm -rf dist/ && tsc",
-    "lint": "npm run lint:ts && npm run lint:js && npm run lint:sol && npm run lint:dydx",
+    "lint": "npm run lint:ts && npm run lint:js && npm run lint:sol && npm run lint:deta",
     "lint:ts": "tslint --project . -t verbose 'src/**/*.ts' 'test/**/*.ts'",
     "lint:js": "eslint --ext .js --ignore-path .gitignore migrations/**/*.js",
     "lint:sol": "solium -d contracts/",
-    "lint:dydx": "python util/lintcontracts.py",
+    "lint:deta": "python util/lintcontracts.py",
     "docker_node": "ganache-cli -i 1313 -d -k=istanbul -p 8545 -h 0.0.0.0 --db=/home/.ganache",
     "deploy": "truffle migrate --network=$NETWORK --reset && npm run save_deployed_addresses",
     "deploy_kovan": "NETWORK=kovan npm run deploy",
@@ -35,18 +35,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dydxprotocol/perpetual"
+    "url": "https://github.com/detaprotocol/perpetual"
   },
   "keywords": [
-    "dydx",
+    "deta",
     "ethereum"
   ],
-  "author": "dYdX Trading Inc.",
+  "author": "deta Trading Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dydxprotocol/perpetual/issues"
+    "url": "https://github.com/detaprotocol/perpetual/issues"
   },
-  "homepage": "https://github.com/dydxprotocol/perpetual#readme",
+  "homepage": "https://github.com/detaprotocol/perpetual#readme",
   "dependencies": {
     "@openzeppelin/contracts": "2.5.0",
     "@openzeppelin/upgrades": "2.6.0",

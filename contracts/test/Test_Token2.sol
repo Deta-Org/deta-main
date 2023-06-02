@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ import { ERC20Detailed } from "@openzeppelin/contracts/token/ERC20/ERC20Detailed
 
 /**
  * @title Test_Token2
- * @author dYdX
+ * @author deta
  *
  * @notice A second ERC-20 token for testing.
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ import { P1Types } from "../../protocol/v1/lib/P1Types.sol";
 
 /**
  * @title Test_P1Trader
- * @author dYdX
+ * @author deta
  *
  * @notice I_P1Trader implementation for testing.
  */

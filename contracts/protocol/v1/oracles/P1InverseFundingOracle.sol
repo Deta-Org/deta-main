@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { P1FundingOracle } from "./P1FundingOracle.sol";
 
 /**
  * @title P1InverseFundingOracle
- * @author dYdX
+ * @author deta
  *
  * @notice P1FundingOracle that uses the inverted rate (i.e. flips base and quote currencies)
  *  when getting the funding amount.

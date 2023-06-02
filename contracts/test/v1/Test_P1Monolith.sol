@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import { Test_P1Trader } from "./Test_P1Trader.sol";
 
 /**
  * @title Test_P1Monolith
- * @author dYdX
+ * @author deta
  *
  * @notice A second contract for testing the funder, oracle, and trader.
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { I_Aggregator } from "../../external/chainlink/I_Aggregator.sol";
 
 /**
  * @title Test_ChainlinkAggregator
- * @author dYdX
+ * @author deta
  *
  * Chainlink Aggregator for testing
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -120,7 +120,7 @@ export interface TxResult {
     [eventName: string]: EventLog;
   };
   status?: boolean;
-  nonce?: number; // non-standard field, returned only through dYdX Sender service
+  nonce?: number; // non-standard field, returned only through deta Sender service
   confirmation?: Promise<TransactionReceipt>;
   gasEstimate?: number;
   gas?: number;

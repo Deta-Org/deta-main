@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import { P1Proxy } from "./P1Proxy.sol";
-import { I_Solo } from "../../../external/dydx/I_Solo.sol";
+import { I_Solo } from "../../../external/deta/I_Solo.sol";
 import { BaseMath } from "../../lib/BaseMath.sol";
 import { ReentrancyGuard } from "../../lib/ReentrancyGuard.sol";
 import { SignedMath } from "../../lib/SignedMath.sol";
@@ -35,7 +35,7 @@ import { P1Types } from "../lib/P1Types.sol";
 
 /**
  * @title P1SoloBridgeProxy
- * @author dYdX
+ * @author deta
  *
  * @notice Facilitates transfers between the PerpetualV1 and Solo smart contracts.
  */

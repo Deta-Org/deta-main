@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import { I_PerpetualV1 } from "../intf/I_PerpetualV1.sol";
 
 /**
  * @title P1WethProxy
- * @author dYdX
+ * @author deta
  *
  * @notice A proxy for depositing and withdrawing ETH to/from a Perpetual contract that uses WETH as
  *  its margin token. The ETH will be wrapper and unwrapped by the proxy.

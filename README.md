@@ -1,26 +1,26 @@
-<p align="center"><img src="https://s3.amazonaws.com/dydx-assets/logo_large_white.png" width="256" /></p>
+<p align="center"><img src="https://s3.amazonaws.com/deta-assets/logo_large_white.png" width="256" /></p>
 
 <div align="center">
-  <a href="https://circleci.com/gh/dydxprotocol/workflows/perpetual/tree/master" style="text-decoration:none;">
-    <img src="https://img.shields.io/circleci/project/github/dydxprotocol/perpetual.svg" alt='CI Status' />
+  <a href="https://circleci.com/gh/detaprotocol/workflows/perpetual/tree/master" style="text-decoration:none;">
+    <img src="https://img.shields.io/circleci/project/github/detaprotocol/perpetual.svg" alt='CI Status' />
   </a>
-  <a href='https://www.npmjs.com/package/@dydxprotocol/perpetual' style="text-decoration:none;">
-    <img src='https://img.shields.io/npm/v/@dydxprotocol/perpetual.svg' alt='NPM' />
+  <a href='https://www.npmjs.com/package/@detaprotocol/perpetual' style="text-decoration:none;">
+    <img src='https://img.shields.io/npm/v/@detaprotocol/perpetual.svg' alt='NPM' />
   </a>
-  <a href='https://coveralls.io/github/dydxprotocol/perpetual' style="text-decoration:none;">
-    <img src='https://coveralls.io/repos/github/dydxprotocol/perpetual/badge.svg?t=cPGDk7' alt='Coverage Status' />
+  <a href='https://coveralls.io/github/detaprotocol/perpetual' style="text-decoration:none;">
+    <img src='https://coveralls.io/repos/github/detaprotocol/perpetual/badge.svg?t=cPGDk7' alt='Coverage Status' />
   </a>
-  <a href='https://github.com/dydxprotocol/perpetual/blob/master/LICENSE' style="text-decoration:none;">
-    <img src='https://img.shields.io/github/license/dydxprotocol/protocol.svg?longCache=true' alt='License' />
+  <a href='https://github.com/detaprotocol/perpetual/blob/master/LICENSE' style="text-decoration:none;">
+    <img src='https://img.shields.io/github/license/detaprotocol/protocol.svg?longCache=true' alt='License' />
   </a>
   <a href='https://t.me/joinchat/GBnMlBb9mQblQck2pThTgw' style="text-decoration:none;">
     <img src='https://img.shields.io/badge/chat-on%20telegram-9cf.svg?longCache=true' alt='Telegram' />
   </a>
 </div>
 
-> Ethereum Smart Contracts and TypeScript client library for the dYdX Perpetual Contracts Protocol. Currently used by [trade.dydx.exchange](https://trade.dydx.exchange).
+> Ethereum Smart Contracts and TypeScript client library for the deta Perpetual Contracts Protocol. Currently used by [trade.deta.exchange](https://trade.deta.exchange).
 
-**Full Documentation at [docs.dydx.exchange](https://docs.dydx.exchange).**
+**Full Documentation at [docs.deta.exchange](https://docs.deta.exchange).**
 
 ## Table of Contents
 
@@ -34,26 +34,26 @@
 
 ## Documentation
 
-Check out our full documentation at [docs.dydx.exchange](https://docs.dydx.exchange):
-* [Protocol Overview](https://docs.dydx.exchange/#/perpetual-protocol)
-* [Perpetual Guide and Contract Specification](https://docs.dydx.exchange/#/perpetual-guide)
+Check out our full documentation at [docs.deta.exchange](https://docs.deta.exchange):
+* [Protocol Overview](https://docs.deta.exchange/#/perpetual-protocol)
+* [Perpetual Guide and Contract Specification](https://docs.deta.exchange/#/perpetual-guide)
 
 ## Install
 
-`npm i -s @dydxprotocol/perpetual`
+`npm i -s @detaprotocol/perpetual`
 
 ## Contracts
 
-The current contract addresses can be found in the [`migrations/deployed.json`](https://github.com/dydxprotocol/perpetual/blob/master/migrations/deployed.json) file.
+The current contract addresses can be found in the [`migrations/deployed.json`](https://github.com/detaprotocol/perpetual/blob/master/migrations/deployed.json) file.
 
 ## Security
 
 ### Independent Audits
 
 The smart contracts were audited independently by
-[Zeppelin Solutions](https://zeppelin.solutions/) at commit [`c5e2b0e`](https://github.com/dydxprotocol/perpetual/tree/c5e2b0e58aaf532d2c8b1f658d1df2f6a3385318/contracts), excluding [`P1Orders.sol`](contracts/protocol/v1/P1Orders.sol).
+[Zeppelin Solutions](https://zeppelin.solutions/) at commit [`c5e2b0e`](https://github.com/detaprotocol/perpetual/tree/c5e2b0e58aaf532d2c8b1f658d1df2f6a3385318/contracts), excluding [`P1Orders.sol`](contracts/protocol/v1/P1Orders.sol).
 
-**[Zeppelin Solutions Audit Report](https://blog.openzeppelin.com/dydx-perpetual-audit/)**
+**[Zeppelin Solutions Audit Report](https://blog.openzeppelin.com/deta-perpetual-audit/)**
 
 ### Code Coverage
 
@@ -66,7 +66,7 @@ The disclosure of security vulnerabilities helps us ensure the security of our u
 **How to report a security vulnerability?**
 
 If you believe you’ve found a security vulnerability in one of our contracts or platforms,
-send it to us by emailing [security@dydx.exchange](mailto:security@dydx.exchange).
+send it to us by emailing [security@deta.exchange](mailto:security@deta.exchange).
 Please include the following details with your report:
 
 * A description of the location and potential impact of the vulnerability.
@@ -87,7 +87,7 @@ disruption to production systems, and destruction of data during security testin
 * Use the identified communication channels to report vulnerability information to us.
 
 * Keep information about any vulnerabilities you’ve discovered confidential between yourself and
-dYdX until we’ve had 30 days to resolve the issue.
+deta until we’ve had 30 days to resolve the issue.
 
 If you follow these guidelines when reporting an issue to us, we commit to:
 
@@ -96,7 +96,7 @@ If you follow these guidelines when reporting an issue to us, we commit to:
 * Work with you to understand and resolve the issue quickly
 (including an initial confirmation of your report within 72 hours of submission).
 
-* Grant a monetary reward based on the [OWASP risk assessment methodology](https://medium.com/dydxderivatives/announcing-bug-bounties-for-the-dydx-margin-trading-protocol-d0c817d1cda4).
+* Grant a monetary reward based on the [OWASP risk assessment methodology](https://medium.com/detaderivatives/announcing-bug-bounties-for-the-deta-margin-trading-protocol-d0c817d1cda4).
 
 
 ## Development
@@ -135,11 +135,11 @@ Requires a running [docker](https://docker.com) engine.
 
  - **Brendan Chou**
  [@brendanchou](https://github.com/BrendanChou)
- [`brendan@dydx.exchange`](mailto:brendan@dydx.exchange)
+ [`brendan@deta.exchange`](mailto:brendan@deta.exchange)
 
  - **Ken Schiller**
  [@kenadia](https://github.com/Kenadia)
- [`ken@dydx.exchange`](mailto:ken@dydx.exchange)
+ [`ken@deta.exchange`](mailto:ken@deta.exchange)
 
 ## License
 

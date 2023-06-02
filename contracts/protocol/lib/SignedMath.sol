@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
 
 /**
  * @title SignedMath
- * @author dYdX
+ * @author deta
  *
  * @dev SignedMath library for doing math with signed integers.
  */

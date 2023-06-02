@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ import { P1Types } from "./lib/P1Types.sol";
 
 /**
  * @title PerpetualV1
- * @author dYdX
+ * @author deta
  *
  * @notice A market for a perpetual contract, a financial derivative which may be traded on margin
  *  and which aims to closely track the spot price of an underlying asset. The underlying asset is
@@ -49,7 +49,7 @@ contract PerpetualV1 is
 {
     // Non-colliding storage slot.
     bytes32 internal constant PERPETUAL_V1_INITIALIZE_SLOT =
-    bytes32(uint256(keccak256("dYdX.PerpetualV1.initialize")) - 1);
+    bytes32(uint256(keccak256("deta.PerpetualV1.initialize")) - 1);
 
     /**
      * @dev Once-only initializer function that replaces the constructor since this contract is

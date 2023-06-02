@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,12 +20,12 @@ pragma solidity 0.5.16;
 pragma experimental ABIEncoderV2;
 
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import { I_Solo } from "../../external/dydx/I_Solo.sol";
+import { I_Solo } from "../../external/deta/I_Solo.sol";
 
 
 /**
  * @title Test_Solo
- * @author dYdX
+ * @author deta
  *
  * Interface for calling the Solo margin smart contract.
  */

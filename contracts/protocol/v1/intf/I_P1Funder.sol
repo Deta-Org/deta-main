@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ pragma experimental ABIEncoderV2;
 
 /**
  * @title I_P1Funder
- * @author dYdX
+ * @author deta
  *
  * @notice Interface for an oracle providing the funding rate for a perpetual market.
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import { P1Types } from "../lib/P1Types.sol";
 
 /**
  * @title P1InverseOrders
- * @author dYdX
+ * @author deta
  *
  * @notice Contract allowing trading between accounts using cryptographically signed messages.
  *  The limit and trigger prices are inverted, i.e. the base and quote currencies are swapped.

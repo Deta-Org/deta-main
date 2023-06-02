@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ import { SignedMath } from "../../lib/SignedMath.sol";
 
 /**
  * @title P1BalanceMath
- * @author dYdX
+ * @author deta
  *
  * @dev Library for manipulating P1Types.Balance structs.
  */
